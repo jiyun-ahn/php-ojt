@@ -1,0 +1,115 @@
+@charset "UTF-8";
+
+.post_list_main {
+	padding: 0% 1%;
+}
+
+.post_list_menubar {
+	width: 100%;
+	height: 30px;
+	padding-bottom: 3px;
+}
+
+.post_list_select_label {
+	width : 96.5%;
+	height: 80px;
+	position: absolute;
+	top: 78%;
+	padding: 1%;
+	background-color: #f6ffa9;
+	border: solid 1px #000000;
+	display: none;
+}
+
+.post_list_select_label input[type=button] {
+	background-color: #0038b7;
+	color: white;
+	margin-top: 6px;
+	margin-left: 6px;
+    width: 120px;
+    padding: 5px 0px;
+}
+
+.post_list_menubar_labels {
+	width: 50%;
+	float: left;
+	text-align: left;
+}
+
+.post_list_menubar_btns {
+	width: 50%;
+	float: right;
+	text-align: right;
+}
+
+.post_list_menubar_label {
+	height: 25px;
+}
+
+.post_list_menu_btn_1 {
+	background-color: #011ea7;
+	border-style: none;
+	color: #FFFFFF;
+	height: 25px;
+	padding: 0px 8px;
+}
+
+.post_list_menu_btn_2 {
+	background-color: #686868;
+	border-style: none;
+	color: #FFFFFF;
+	height: 25px;
+	padding: 0px 8px;
+}
+
+.post_list_header {
+	background-color: #e6e6e6;
+	color: #000000;
+	height: 25px;
+	padding-top: 5px;
+}
+
+.post_list_header_element {
+	text-align: center;
+	display: inline-block;
+	float: left;
+}
+
+.post_list_content {
+}
+
+.post_list_content_element {
+	background-color: #FFFFFF;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #e6e6e6;
+	height: 30px;
+	padding-top: 5px;
+	text-align: center;
+	display: inline-block;
+	float: left;
+}
+
+.important_mark {
+	color: red;
+	font-size: 14pt;
+}
+
+.post_title {
+	text-align: left;
+	padding-left: 10px;
+	cursor: pointer;
+}
+
+.post_title:hover {
+	background-color: #f6ffa9;
+}
+
+input[type=button] {
+	cursor: pointer;
+}
+
+input[type=checkbox] {
+	margin-top: 6px;
+	transform: scale(1.5);
+}
